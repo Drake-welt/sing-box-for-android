@@ -9,8 +9,8 @@ cd sing-box
 git checkout dev-routestrategy
 ##########################
 # https://github.com/yaotthaha/sing-box-pub@dev-next-yaott 编译 with_clash_ui 需要，其他分支可以注释掉 #########
-git submodule init
-git submodule update
+#git submodule init
+#git submodule update
 #make init_metacubexd
 ####################
 # 这里可以修改 tags
