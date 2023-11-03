@@ -30,10 +30,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("release.keystore")
-            storePassword getProps("KEYSTORE_PASS")
-            keyAlias getProps("ALIAS_NAME")
-            keyPassword getProps("ALIAS_PASS")
+            storeFile file("android.jks")
+            storePassword System.getenv("KEYSTORE_PASS")
+            keyAlias System.getenv("ALIAS_NAME")
+            keyPassword System.getenv("ALIAS_PASS")
         }
     }
 
