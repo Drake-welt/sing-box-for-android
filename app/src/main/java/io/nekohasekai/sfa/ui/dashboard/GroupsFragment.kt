@@ -179,9 +179,9 @@ class GroupsFragment : Fragment(), CommandClient.Handler {
                 val builder = SpannableStringBuilder()
                 items.forEach {
                     if (it.tag == group.selected) {
-                        builder.append("▣")
+                        builder.append("◉")
                     } else {
-                        builder.append("■")
+                        builder.append("●")
                     }
                     builder.setSpan(
                         ForegroundColorSpan(
