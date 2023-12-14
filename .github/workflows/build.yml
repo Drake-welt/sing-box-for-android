@@ -67,7 +67,7 @@ jobs:
           echo "RELEASE_NAME=Released on ${tag}" >> $GITHUB_ENV
           echo "TAG_NAME=${tag}" >> $GITHUB_ENV
           mkdir release
-          cp ./app/build/outputs/apk/release/*.apk release/
+          cp ./app/build/outputs/apk/other/release/*.apk release/
           cp ./app/libs/libbox.aar release/
       - name: Release
         uses: svenstaro/upload-release-action@v2
