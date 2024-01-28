@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.utils
+package io.drake.sfa.utils
 
 import android.content.Context
 import android.graphics.Color
@@ -10,7 +10,7 @@ import android.text.style.ForegroundColorSpan
 import android.text.style.StyleSpan
 import android.text.style.UnderlineSpan
 import androidx.core.content.ContextCompat
-import io.nekohasekai.sfa.R
+import io.drake.sfa.R
 import java.util.Stack
 
 object ColorUtils {

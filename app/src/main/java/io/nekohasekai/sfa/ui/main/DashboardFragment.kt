@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ui.main
+package io.drake.sfa.ui.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,12 +9,12 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.google.android.material.tabs.TabLayoutMediator
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.constant.Status
-import io.nekohasekai.sfa.databinding.FragmentDashboardBinding
-import io.nekohasekai.sfa.ui.MainActivity
-import io.nekohasekai.sfa.ui.dashboard.GroupsFragment
-import io.nekohasekai.sfa.ui.dashboard.OverviewFragment
+import io.drake.sfa.R
+import io.drake.sfa.constant.Status
+import io.drake.sfa.databinding.FragmentDashboardBinding
+import io.drake.sfa.ui.MainActivity
+import io.drake.sfa.ui.dashboard.GroupsFragment
+import io.drake.sfa.ui.dashboard.OverviewFragment
 
 class DashboardFragment : Fragment(R.layout.fragment_dashboard) {
 

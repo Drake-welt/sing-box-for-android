@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ui.main
+package io.drake.sfa.ui.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,13 +8,13 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.bg.BoxService
-import io.nekohasekai.sfa.constant.Status
-import io.nekohasekai.sfa.databinding.FragmentLogBinding
-import io.nekohasekai.sfa.databinding.ViewLogTextItemBinding
-import io.nekohasekai.sfa.ui.MainActivity
-import io.nekohasekai.sfa.utils.ColorUtils
+import io.drake.sfa.R
+import io.drake.sfa.bg.BoxService
+import io.drake.sfa.constant.Status
+import io.drake.sfa.databinding.FragmentLogBinding
+import io.drake.sfa.databinding.ViewLogTextItemBinding
+import io.drake.sfa.ui.MainActivity
+import io.drake.sfa.utils.ColorUtils
 import java.util.LinkedList
 
 class LogFragment : Fragment() {

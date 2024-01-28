@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.vendor
+package io.drake.sfa.vendor
 
 import android.app.Activity
 

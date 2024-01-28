@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -12,15 +12,15 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
 import androidx.lifecycle.MutableLiveData
-import io.nekohasekai.libbox.Libbox
-import io.nekohasekai.libbox.StatusMessage
-import io.nekohasekai.sfa.Application
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.constant.Action
-import io.nekohasekai.sfa.constant.Status
-import io.nekohasekai.sfa.database.Settings
-import io.nekohasekai.sfa.ui.MainActivity
-import io.nekohasekai.sfa.utils.CommandClient
+import io.drake.libbox.Libbox
+import io.drake.libbox.StatusMessage
+import io.drake.sfa.Application
+import io.drake.sfa.R
+import io.drake.sfa.constant.Action
+import io.drake.sfa.constant.Status
+import io.drake.sfa.database.Settings
+import io.drake.sfa.ui.MainActivity
+import io.drake.sfa.utils.CommandClient
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.withContext

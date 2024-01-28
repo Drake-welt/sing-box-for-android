@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ui.main
+package io.drake.sfa.ui.main
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,15 +12,15 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.database.Profile
-import io.nekohasekai.sfa.database.ProfileManager
-import io.nekohasekai.sfa.databinding.FragmentConfigurationBinding
-import io.nekohasekai.sfa.databinding.ViewConfigutationItemBinding
-import io.nekohasekai.sfa.ktx.errorDialogBuilder
-import io.nekohasekai.sfa.ktx.shareProfile
-import io.nekohasekai.sfa.ui.profile.EditProfileActivity
-import io.nekohasekai.sfa.ui.profile.NewProfileActivity
+import io.drake.sfa.R
+import io.drake.sfa.database.Profile
+import io.drake.sfa.database.ProfileManager
+import io.drake.sfa.databinding.FragmentConfigurationBinding
+import io.drake.sfa.databinding.ViewConfigutationItemBinding
+import io.drake.sfa.ktx.errorDialogBuilder
+import io.drake.sfa.ktx.shareProfile
+import io.drake.sfa.ui.profile.EditProfileActivity
+import io.drake.sfa.ui.profile.NewProfileActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

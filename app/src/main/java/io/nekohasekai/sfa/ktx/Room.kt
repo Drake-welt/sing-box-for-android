@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ktx
+package io.drake.sfa.ktx
 
 import android.os.Parcel
 import android.os.Parcelable

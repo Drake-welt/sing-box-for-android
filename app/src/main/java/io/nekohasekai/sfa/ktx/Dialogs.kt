@@ -1,9 +1,9 @@
-package io.nekohasekai.sfa.ktx
+package io.drake.sfa.ktx
 
 import android.content.Context
 import androidx.annotation.StringRes
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import io.nekohasekai.sfa.R
+import io.drake.sfa.R
 
 fun Context.errorDialogBuilder(@StringRes messageId: Int): MaterialAlertDialogBuilder {
     return MaterialAlertDialogBuilder(this)

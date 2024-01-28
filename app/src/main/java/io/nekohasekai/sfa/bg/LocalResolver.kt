@@ -1,13 +1,13 @@
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.net.DnsResolver
 import android.os.Build
 import android.os.CancellationSignal
 import android.system.ErrnoException
 import androidx.annotation.RequiresApi
-import io.nekohasekai.libbox.ExchangeContext
-import io.nekohasekai.libbox.LocalDNSTransport
-import io.nekohasekai.sfa.ktx.tryResumeWithException
+import io.drake.libbox.ExchangeContext
+import io.drake.libbox.LocalDNSTransport
+import io.drake.sfa.ktx.tryResumeWithException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.asExecutor
 import kotlinx.coroutines.runBlocking

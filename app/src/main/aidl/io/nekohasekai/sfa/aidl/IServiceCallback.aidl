@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.aidl;
+package io.drake.sfa.aidl;
 
 interface IServiceCallback {
   void onServiceStatusChanged(int status);

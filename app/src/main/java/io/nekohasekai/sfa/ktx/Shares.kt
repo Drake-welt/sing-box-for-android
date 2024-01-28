@@ -1,12 +1,12 @@
-package io.nekohasekai.sfa.ktx
+package io.drake.sfa.ktx
 
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.FileProvider
 import com.google.android.material.R
-import io.nekohasekai.libbox.ProfileContent
-import io.nekohasekai.sfa.database.Profile
-import io.nekohasekai.sfa.database.TypedProfile
+import io.drake.libbox.ProfileContent
+import io.drake.sfa.database.Profile
+import io.drake.sfa.database.TypedProfile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -16,11 +16,11 @@ suspend fun Context.shareProfile(profile: Profile) {
     content.name = profile.name
     when (profile.typed.type) {
         TypedProfile.Type.Local -> {
-            content.type = io.nekohasekai.libbox.Libbox.ProfileTypeLocal
+            content.type = io.drake.libbox.Libbox.ProfileTypeLocal
         }
 
         TypedProfile.Type.Remote -> {
-            content.type = io.nekohasekai.libbox.Libbox.ProfileTypeRemote
+            content.type = io.drake.libbox.Libbox.ProfileTypeRemote
         }
     }
     content.config = File(profile.typed.path).readText()

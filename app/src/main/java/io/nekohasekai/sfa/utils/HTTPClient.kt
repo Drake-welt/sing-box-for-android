@@ -1,7 +1,7 @@
-package io.nekohasekai.sfa.utils
+package io.drake.sfa.utils
 
-import io.nekohasekai.libbox.Libbox
-import io.nekohasekai.sfa.BuildConfig
+import io.drake.libbox.Libbox
+import io.drake.sfa.BuildConfig
 import java.io.Closeable
 
 class HTTPClient : Closeable {

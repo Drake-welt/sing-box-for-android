@@ -1,10 +1,10 @@
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.os.RemoteCallbackList
 import androidx.lifecycle.MutableLiveData
-import io.nekohasekai.sfa.aidl.IService
-import io.nekohasekai.sfa.aidl.IServiceCallback
-import io.nekohasekai.sfa.constant.Status
+import io.drake.sfa.aidl.IService
+import io.drake.sfa.aidl.IServiceCallback
+import io.drake.sfa.constant.Status
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

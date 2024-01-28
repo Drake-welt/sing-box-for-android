@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace 'io.nekohasekai.sfa'
+    namespace 'io.drake.sfa'
     compileSdk 34
 
     ksp {
@@ -18,7 +18,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "io.nekohasekai.sfa"
+        applicationId "io.drake.sfa"
         minSdk 21
         targetSdk 34
         versionCode System.getenv("VERSION_CODE").toInteger()

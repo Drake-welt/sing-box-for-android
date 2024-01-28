@@ -1,6 +1,6 @@
-package io.nekohasekai.sfa.constant
+package io.drake.sfa.constant
 
-import io.nekohasekai.sfa.database.Settings
+import io.drake.sfa.database.Settings
 
 enum class PerAppProxyUpdateType {
     Disabled, Select, Deselect;

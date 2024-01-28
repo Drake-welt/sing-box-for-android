@@ -1,11 +1,11 @@
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import io.nekohasekai.sfa.database.Settings
-import io.nekohasekai.sfa.ui.profileoverride.PerAppProxyActivity
+import io.drake.sfa.database.Settings
+import io.drake.sfa.ui.profileoverride.PerAppProxyActivity
 
 class AppChangeReceiver : BroadcastReceiver() {
 

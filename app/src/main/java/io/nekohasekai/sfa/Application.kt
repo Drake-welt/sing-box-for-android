@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa
+package io.drake.sfa
 
 import android.app.Application
 import android.app.NotificationManager
@@ -10,12 +10,12 @@ import android.net.wifi.WifiManager
 import android.os.PowerManager
 import androidx.core.content.getSystemService
 import go.Seq
-import io.nekohasekai.sfa.bg.AppChangeReceiver
-import io.nekohasekai.sfa.bg.UpdateProfileWork
+import io.drake.sfa.bg.AppChangeReceiver
+import io.drake.sfa.bg.UpdateProfileWork
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import io.nekohasekai.sfa.Application as BoxApplication
+import io.drake.sfa.Application as BoxApplication
 
 class Application : Application() {
 

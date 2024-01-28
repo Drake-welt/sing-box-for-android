@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.database
+package io.drake.sfa.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase

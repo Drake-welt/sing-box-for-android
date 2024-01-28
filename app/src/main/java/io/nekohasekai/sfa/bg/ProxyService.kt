@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.app.Service
 import android.content.Intent

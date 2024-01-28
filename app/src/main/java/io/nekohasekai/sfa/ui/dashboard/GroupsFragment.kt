@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ui.dashboard
+package io.drake.sfa.ui.dashboard
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -16,18 +16,18 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SimpleItemAnimator
-import io.nekohasekai.libbox.Libbox
-import io.nekohasekai.libbox.OutboundGroup
-import io.nekohasekai.libbox.OutboundGroupItem
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.constant.Status
-import io.nekohasekai.sfa.databinding.FragmentDashboardGroupsBinding
-import io.nekohasekai.sfa.databinding.ViewDashboardGroupBinding
-import io.nekohasekai.sfa.databinding.ViewDashboardGroupItemBinding
-import io.nekohasekai.sfa.ktx.colorForURLTestDelay
-import io.nekohasekai.sfa.ktx.errorDialogBuilder
-import io.nekohasekai.sfa.ui.MainActivity
-import io.nekohasekai.sfa.utils.CommandClient
+import io.drake.libbox.Libbox
+import io.drake.libbox.OutboundGroup
+import io.drake.libbox.OutboundGroupItem
+import io.drake.sfa.R
+import io.drake.sfa.constant.Status
+import io.drake.sfa.databinding.FragmentDashboardGroupsBinding
+import io.drake.sfa.databinding.ViewDashboardGroupBinding
+import io.drake.sfa.databinding.ViewDashboardGroupItemBinding
+import io.drake.sfa.ktx.colorForURLTestDelay
+import io.drake.sfa.ktx.errorDialogBuilder
+import io.drake.sfa.ui.MainActivity
+import io.drake.sfa.utils.CommandClient
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

@@ -1,10 +1,10 @@
-package io.nekohasekai.sfa.ui.debug
+package io.drake.sfa.ui.debug
 
 import android.content.Intent
 import android.os.Bundle
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.databinding.ActivityDebugBinding
-import io.nekohasekai.sfa.ui.shared.AbstractActivity
+import io.drake.sfa.R
+import io.drake.sfa.databinding.ActivityDebugBinding
+import io.drake.sfa.ui.shared.AbstractActivity
 
 class DebugActivity : AbstractActivity() {
 

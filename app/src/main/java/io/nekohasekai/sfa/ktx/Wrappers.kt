@@ -1,10 +1,10 @@
-package io.nekohasekai.sfa.ktx
+package io.drake.sfa.ktx
 
 import android.net.IpPrefix
 import android.os.Build
 import androidx.annotation.RequiresApi
-import io.nekohasekai.libbox.RoutePrefix
-import io.nekohasekai.libbox.StringIterator
+import io.drake.libbox.RoutePrefix
+import io.drake.libbox.StringIterator
 import java.net.InetAddress
 
 fun Iterable<String>.toStringIterator(): StringIterator {

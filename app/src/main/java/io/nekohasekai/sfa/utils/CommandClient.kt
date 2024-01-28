@@ -1,15 +1,15 @@
-package io.nekohasekai.sfa.utils
+package io.drake.sfa.utils
 
 import go.Seq
-import io.nekohasekai.libbox.CommandClient
-import io.nekohasekai.libbox.CommandClientHandler
-import io.nekohasekai.libbox.CommandClientOptions
-import io.nekohasekai.libbox.Libbox
-import io.nekohasekai.libbox.OutboundGroup
-import io.nekohasekai.libbox.OutboundGroupIterator
-import io.nekohasekai.libbox.StatusMessage
-import io.nekohasekai.libbox.StringIterator
-import io.nekohasekai.sfa.ktx.toList
+import io.drake.libbox.CommandClient
+import io.drake.libbox.CommandClientHandler
+import io.drake.libbox.CommandClientOptions
+import io.drake.libbox.Libbox
+import io.drake.libbox.OutboundGroup
+import io.drake.libbox.OutboundGroupIterator
+import io.drake.libbox.StatusMessage
+import io.drake.libbox.StringIterator
+import io.drake.sfa.ktx.toList
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

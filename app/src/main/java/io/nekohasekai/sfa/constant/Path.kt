@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.constant
+package io.drake.sfa.constant
 
 object Path {
     const val SETTINGS_DATABASE_PATH = "settings.db"

@@ -1,9 +1,9 @@
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import io.nekohasekai.sfa.database.Settings
+import io.drake.sfa.database.Settings
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

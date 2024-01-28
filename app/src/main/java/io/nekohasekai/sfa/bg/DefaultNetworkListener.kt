@@ -18,7 +18,7 @@
  *                                                                             *
  *******************************************************************************/
 
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.annotation.TargetApi
 import android.net.ConnectivityManager
@@ -28,7 +28,7 @@ import android.net.NetworkRequest
 import android.os.Build
 import android.os.Handler
 import android.os.Looper
-import io.nekohasekai.sfa.Application
+import io.drake.sfa.Application
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

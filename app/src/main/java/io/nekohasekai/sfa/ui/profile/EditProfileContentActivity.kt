@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ui.profile
+package io.drake.sfa.ui.profile
 
 import android.os.Bundle
 import android.view.Menu
@@ -8,13 +8,13 @@ import androidx.core.view.isVisible
 import androidx.core.widget.addTextChangedListener
 import androidx.lifecycle.lifecycleScope
 import com.blacksquircle.ui.language.json.JsonLanguage
-import io.nekohasekai.libbox.Libbox
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.database.Profile
-import io.nekohasekai.sfa.database.ProfileManager
-import io.nekohasekai.sfa.databinding.ActivityEditProfileContentBinding
-import io.nekohasekai.sfa.ktx.errorDialogBuilder
-import io.nekohasekai.sfa.ui.shared.AbstractActivity
+import io.drake.libbox.Libbox
+import io.drake.sfa.R
+import io.drake.sfa.database.Profile
+import io.drake.sfa.database.ProfileManager
+import io.drake.sfa.databinding.ActivityEditProfileContentBinding
+import io.drake.sfa.ktx.errorDialogBuilder
+import io.drake.sfa.ui.shared.AbstractActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

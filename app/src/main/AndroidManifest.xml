@@ -104,25 +104,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="io.nekohasekai.sfa.ui.profile.NewProfileActivity"
+            android:name="io.drake.sfa.ui.profile.NewProfileActivity"
             android:exported="false" />
         <activity
-            android:name="io.nekohasekai.sfa.ui.profile.EditProfileActivity"
+            android:name="io.drake.sfa.ui.profile.EditProfileActivity"
             android:exported="false" />
         <activity
-            android:name="io.nekohasekai.sfa.ui.profile.EditProfileContentActivity"
+            android:name="io.drake.sfa.ui.profile.EditProfileContentActivity"
             android:exported="false" />
         <activity
-            android:name="io.nekohasekai.sfa.ui.profileoverride.ProfileOverrideActivity"
+            android:name="io.drake.sfa.ui.profileoverride.ProfileOverrideActivity"
             android:exported="false" />
         <activity
-            android:name="io.nekohasekai.sfa.ui.profileoverride.PerAppProxyActivity"
+            android:name="io.drake.sfa.ui.profileoverride.PerAppProxyActivity"
             android:exported="false" />
         <activity
-            android:name="io.nekohasekai.sfa.ui.debug.DebugActivity"
+            android:name="io.drake.sfa.ui.debug.DebugActivity"
             android:exported="false" />
         <activity
-            android:name="io.nekohasekai.sfa.ui.debug.VPNScanActivity"
+            android:name="io.drake.sfa.ui.debug.VPNScanActivity"
             android:exported="false" />
 
         <service

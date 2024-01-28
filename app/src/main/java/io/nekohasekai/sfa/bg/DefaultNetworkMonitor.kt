@@ -1,9 +1,9 @@
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.net.Network
 import android.os.Build
-import io.nekohasekai.libbox.InterfaceUpdateListener
-import io.nekohasekai.sfa.Application
+import io.drake.libbox.InterfaceUpdateListener
+import io.drake.sfa.Application
 
 object DefaultNetworkMonitor {
 

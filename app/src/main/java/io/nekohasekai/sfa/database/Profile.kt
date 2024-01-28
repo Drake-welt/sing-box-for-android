@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.database
+package io.drake.sfa.database
 
 import android.os.Parcelable
 import androidx.room.Delete

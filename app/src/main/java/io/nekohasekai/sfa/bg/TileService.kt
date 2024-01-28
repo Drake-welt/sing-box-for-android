@@ -1,9 +1,9 @@
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import androidx.annotation.RequiresApi
-import io.nekohasekai.sfa.constant.Status
+import io.drake.sfa.constant.Status
 
 @RequiresApi(24)
 class TileService : TileService(), ServiceConnection.Callback {

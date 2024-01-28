@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.content.ComponentName
 import android.content.Context
@@ -8,12 +8,12 @@ import android.os.IBinder
 import android.os.RemoteException
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import io.nekohasekai.sfa.aidl.IService
-import io.nekohasekai.sfa.aidl.IServiceCallback
-import io.nekohasekai.sfa.constant.Action
-import io.nekohasekai.sfa.constant.Alert
-import io.nekohasekai.sfa.constant.Status
-import io.nekohasekai.sfa.database.Settings
+import io.drake.sfa.aidl.IService
+import io.drake.sfa.aidl.IServiceCallback
+import io.drake.sfa.constant.Action
+import io.drake.sfa.constant.Alert
+import io.drake.sfa.constant.Status
+import io.drake.sfa.database.Settings
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext

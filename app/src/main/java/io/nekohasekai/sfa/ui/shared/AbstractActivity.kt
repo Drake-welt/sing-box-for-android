@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ui.shared
+package io.drake.sfa.ui.shared
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.content.res.AppCompatResources
 import com.google.android.material.color.DynamicColors
 import com.google.android.material.elevation.SurfaceColors
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.ktx.getAttrColor
+import io.drake.sfa.R
+import io.drake.sfa.ktx.getAttrColor
 
 
 abstract class AbstractActivity : AppCompatActivity() {

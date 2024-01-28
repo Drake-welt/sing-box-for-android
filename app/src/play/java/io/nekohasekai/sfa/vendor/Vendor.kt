@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.vendor
+package io.drake.sfa.vendor
 
 import android.app.Activity
 import android.content.Context
@@ -9,7 +9,7 @@ import com.google.android.play.core.appupdate.AppUpdateOptions
 import com.google.android.play.core.install.model.AppUpdateType
 import com.google.android.play.core.install.model.InstallStatus
 import com.google.android.play.core.install.model.UpdateAvailability
-import io.nekohasekai.sfa.R
+import io.drake.sfa.R
 
 object Vendor : VendorInterface {
 
@@ -71,7 +71,7 @@ object Vendor : VendorInterface {
 
     private fun Context.showNoUpdatesDialog() {
         MaterialAlertDialogBuilder(this)
-            .setTitle(io.nekohasekai.sfa.R.string.check_update)
+            .setTitle(io.drake.sfa.R.string.check_update)
             .setMessage(R.string.no_updates_available)
             .setPositiveButton(R.string.ok, null)
             .show()

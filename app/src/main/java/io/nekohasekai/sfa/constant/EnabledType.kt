@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.constant
+package io.drake.sfa.constant
 
 enum class EnabledType(val boolValue: Boolean) {
     Enabled(true), Disabled(false);

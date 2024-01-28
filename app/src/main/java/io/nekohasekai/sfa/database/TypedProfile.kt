@@ -1,10 +1,10 @@
-package io.nekohasekai.sfa.database
+package io.drake.sfa.database
 
 import android.os.Parcel
 import android.os.Parcelable
 import androidx.room.TypeConverter
-import io.nekohasekai.sfa.ktx.marshall
-import io.nekohasekai.sfa.ktx.unmarshall
+import io.drake.sfa.ktx.marshall
+import io.drake.sfa.ktx.unmarshall
 import java.util.Date
 
 class TypedProfile() : Parcelable {

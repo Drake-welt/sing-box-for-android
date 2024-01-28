@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.bg
+package io.drake.sfa.bg
 
 import android.content.Intent
 import android.content.pm.PackageManager.NameNotFoundException
@@ -6,9 +6,9 @@ import android.net.ProxyInfo
 import android.net.VpnService
 import android.os.Build
 import android.os.IBinder
-import io.nekohasekai.libbox.TunOptions
-import io.nekohasekai.sfa.database.Settings
-import io.nekohasekai.sfa.ktx.toIpPrefix
+import io.drake.libbox.TunOptions
+import io.drake.sfa.database.Settings
+import io.drake.sfa.ktx.toIpPrefix
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext

@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ui.debug
+package io.drake.sfa.ui.debug
 
 import android.Manifest
 import android.content.pm.PackageInfo
@@ -11,12 +11,12 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import io.nekohasekai.libbox.Libbox
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.databinding.ActivityVpnScanBinding
-import io.nekohasekai.sfa.databinding.ViewVpnAppItemBinding
-import io.nekohasekai.sfa.ktx.toStringIterator
-import io.nekohasekai.sfa.ui.shared.AbstractActivity
+import io.drake.libbox.Libbox
+import io.drake.sfa.R
+import io.drake.sfa.databinding.ActivityVpnScanBinding
+import io.drake.sfa.databinding.ViewVpnAppItemBinding
+import io.drake.sfa.ktx.toStringIterator
+import io.drake.sfa.ui.shared.AbstractActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -171,11 +171,11 @@ class VPNScanActivity : AbstractActivity() {
         )
 
         private val sfaClasses = listOf(
-            "io.nekohasekai.sfa"
+            "io.drake.sfa"
         )
 
         private val legacySagerNetClasses = listOf(
-            "io.nekohasekai.sagernet",
+            "io.drake.sagernet",
             ".fmt.ConfigBuilder"
         )
 

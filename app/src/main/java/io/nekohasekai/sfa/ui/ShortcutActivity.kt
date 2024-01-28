@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ui
+package io.drake.sfa.ui
 
 import android.app.Activity
 import android.content.Intent
@@ -9,10 +9,10 @@ import androidx.core.content.getSystemService
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
 import androidx.core.graphics.drawable.IconCompat
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.bg.BoxService
-import io.nekohasekai.sfa.bg.ServiceConnection
-import io.nekohasekai.sfa.constant.Status
+import io.drake.sfa.R
+import io.drake.sfa.bg.BoxService
+import io.drake.sfa.bg.ServiceConnection
+import io.drake.sfa.constant.Status
 
 class ShortcutActivity : Activity(), ServiceConnection.Callback {
 

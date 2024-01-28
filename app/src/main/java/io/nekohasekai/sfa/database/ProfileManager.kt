@@ -1,8 +1,8 @@
-package io.nekohasekai.sfa.database
+package io.drake.sfa.database
 
 import androidx.room.Room
-import io.nekohasekai.sfa.Application
-import io.nekohasekai.sfa.constant.Path
+import io.drake.sfa.Application
+import io.drake.sfa.constant.Path
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 

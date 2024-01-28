@@ -1,16 +1,16 @@
-package io.nekohasekai.sfa.ui.profileoverride
+package io.drake.sfa.ui.profileoverride
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.lifecycle.lifecycleScope
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.constant.PerAppProxyUpdateType
-import io.nekohasekai.sfa.database.Settings
-import io.nekohasekai.sfa.databinding.ActivityConfigOverrideBinding
-import io.nekohasekai.sfa.ktx.addTextChangedListener
-import io.nekohasekai.sfa.ktx.setSimpleItems
-import io.nekohasekai.sfa.ktx.text
-import io.nekohasekai.sfa.ui.shared.AbstractActivity
+import io.drake.sfa.R
+import io.drake.sfa.constant.PerAppProxyUpdateType
+import io.drake.sfa.database.Settings
+import io.drake.sfa.databinding.ActivityConfigOverrideBinding
+import io.drake.sfa.ktx.addTextChangedListener
+import io.drake.sfa.ktx.setSimpleItems
+import io.drake.sfa.ktx.text
+import io.drake.sfa.ui.shared.AbstractActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

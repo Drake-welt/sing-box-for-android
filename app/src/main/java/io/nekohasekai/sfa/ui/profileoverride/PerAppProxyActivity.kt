@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ui.profileoverride
+package io.drake.sfa.ui.profileoverride
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -24,12 +24,12 @@ import androidx.core.view.isGone
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import io.nekohasekai.sfa.Application
-import io.nekohasekai.sfa.R
-import io.nekohasekai.sfa.database.Settings
-import io.nekohasekai.sfa.databinding.ActivityPerAppProxyBinding
-import io.nekohasekai.sfa.databinding.ViewAppListItemBinding
-import io.nekohasekai.sfa.ui.shared.AbstractActivity
+import io.drake.sfa.Application
+import io.drake.sfa.R
+import io.drake.sfa.database.Settings
+import io.drake.sfa.databinding.ActivityPerAppProxyBinding
+import io.drake.sfa.databinding.ViewAppListItemBinding
+import io.drake.sfa.ui.shared.AbstractActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

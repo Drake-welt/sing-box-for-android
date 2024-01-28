@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.constant
+package io.drake.sfa.constant
 
 enum class Status {
     Stopped,

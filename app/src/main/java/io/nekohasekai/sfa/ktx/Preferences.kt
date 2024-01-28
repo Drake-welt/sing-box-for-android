@@ -1,4 +1,4 @@
-package io.nekohasekai.sfa.ktx
+package io.drake.sfa.ktx
 
 import androidx.preference.PreferenceDataStore
 import kotlin.reflect.KProperty

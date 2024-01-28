@@ -1,10 +1,10 @@
-package io.nekohasekai.sfa.ktx
+package io.drake.sfa.ktx
 
 import androidx.annotation.ArrayRes
 import androidx.core.widget.addTextChangedListener
 import com.google.android.material.textfield.MaterialAutoCompleteTextView
 import com.google.android.material.textfield.TextInputLayout
-import io.nekohasekai.sfa.R
+import io.drake.sfa.R
 
 var TextInputLayout.text: String
     get() = editText?.text?.toString() ?: ""
