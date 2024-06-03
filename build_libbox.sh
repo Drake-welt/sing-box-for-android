@@ -6,7 +6,7 @@ git clone https://github.com/Welt-Drake/sing-box-reF1nd sing-box
 cd sing-box
 ##########################
 # 这里可以切换分支
-git checkout dev-routestrategy
+git checkout nekolsd-sb
 ##########################
 # 编译 with_clash_ui 需要，其他分支可以注释掉 #########
 make init_metacubexd
