@@ -12,7 +12,7 @@ git checkout nekolsd-sb-ref1nd
 make init_metacubexd
 ####################
 # 这里可以修改 tags
-tags="with_dhcp,with_gvisor,with_quic,with_wireguard,with_utls,with_clash_api,with_proxyprovider,with_ruleprovider,with_clash_dashboard"
+tags="with_dhcp,with_gvisor,with_quic,with_wireguard,with_utls,with_clash_api,with_proxyprovider,with_ruleprovider,with_clash_dashboard,with_conntrack"
 ####################
 ###### !! 不要动 !! ######
 make lib_install
